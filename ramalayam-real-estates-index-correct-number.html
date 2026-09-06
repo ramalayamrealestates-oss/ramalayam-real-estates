@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramalayam Real Estates | Delhi NCR</title>
+<meta name="description" content="Ramalayam Real Estates — residential and commercial property consultancy in Delhi NCR.">
+<style>
+:root{--green:#123c32;--gold:#b08a4a;--cream:#f7f3eb;--ink:#17201d;--muted:#68736f}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}a{text-decoration:none;color:inherit}
+.nav{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:22px 6%;color:white}.logo{font:700 25px Georgia,serif}.logo span{color:#d8bd82}.links{display:flex;gap:28px;font-size:14px}
+.hero{min-height:760px;display:flex;align-items:center;padding:120px 6% 80px;color:white;background:linear-gradient(90deg,rgba(8,29,24,.9),rgba(8,29,24,.45)),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85') center/cover}
+.hero-content{max-width:700px}.eyebrow{letter-spacing:3px;text-transform:uppercase;color:#e0c58c;font-size:12px;font-weight:700;margin-bottom:18px}.hero h1{font:700 clamp(48px,7vw,84px)/1.03 Georgia,serif;margin-bottom:22px}.hero p{font-size:18px;max-width:590px;margin-bottom:30px}
+.btn{display:inline-block;padding:14px 23px;border-radius:4px;font-weight:700;font-size:14px;margin:5px}.primary{background:var(--gold);color:white}.secondary{border:1px solid rgba(255,255,255,.5);color:white}
+.search{margin:-54px auto 0;position:relative;z-index:3;width:88%;max-width:1080px;background:white;padding:22px;box-shadow:0 18px 50px rgba(15,33,28,.13);border-radius:8px}.search-grid{display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:12px}.field{border:1px solid #ddd8cd;padding:12px 14px;border-radius:4px;color:#68736f;background:white}
+.section{padding:90px 6%}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:38px}.section h2{font:700 43px Georgia,serif;color:var(--green)}.section-head p{max-width:430px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.card{background:white;border-radius:8px;overflow:hidden;box-shadow:0 8px 30px rgba(20,35,30,.07)}.card img{width:100%;height:235px;object-fit:cover}.card-body{padding:21px}.tag{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--gold);font-weight:800}.card h3{font:700 24px Georgia,serif;margin:6px 0}.meta{color:var(--muted);font-size:14px}.price{font-weight:800;color:var(--green);font-size:19px;margin-top:13px}
+.about{background:var(--green);color:white;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.about h2{color:white}.about p{color:#dce5e1;margin:18px 0}.ticks{display:grid;gap:13px;margin-top:25px}.ticks div:before{content:"✓";color:#d5b979;font-weight:900;margin-right:10px}
+.areas{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.area{background:white;padding:19px;border:1px solid #e5dfd4;border-radius:5px;font-weight:700;color:var(--green)}
+.cta{background:#e9e0d0;text-align:center}.cta h2{margin-bottom:12px}.cta p{color:var(--muted);margin-bottom:20px}.contact-info{margin-top:25px;display:flex;justify-content:center;flex-wrap:wrap;gap:12px}.contact-pill{background:white;border:1px solid #ded7ca;border-radius:5px;padding:12px 16px;font-weight:700;color:var(--green)}
+footer{background:#0c2922;color:#d7e0dc;padding:45px 6%;display:flex;justify-content:space-between;gap:30px}.foot-logo{font:24px Georgia,serif;color:white}.small{font-size:13px;color:#aebdb7;margin-top:8px}
+@media(max-width:800px){.links{display:none}.hero{min-height:650px}.search-grid{grid-template-columns:1fr 1fr}.cards{grid-template-columns:1fr}.about{grid-template-columns:1fr}.areas{grid-template-columns:1fr 1fr}.section{padding:65px 6%}.section h2{font-size:35px}.section-head{display:block}.section-head p{margin-top:12px}footer{display:block}}
+@media(max-width:480px){.search-grid,.areas{grid-template-columns:1fr}.hero{padding-top:150px}.hero h1{font-size:47px}.btn{display:block;text-align:center;margin:8px 0}}
+</style>
+</head>
+<body>
+<nav class="nav">
+<div class="logo">Ramalayam <span>Real Estates</span></div>
+<div class="links"><a href="#properties">Properties</a><a href="#about">About</a><a href="#areas">Areas</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero">
+<div class="hero-content">
+<div class="eyebrow">Delhi NCR • Property Consultancy</div>
+<h1>Find a place you'll love to call home.</h1>
+<p>Helping buyers, sellers, landlords and tenants discover the right property with straightforward, personalised real-estate assistance.</p>
+<a class="btn primary" href="#properties">Explore Properties</a>
+<a class="btn secondary" href="#contact">Talk to Us</a>
+</div>
+</header>
+
+<section class="search">
+<div class="search-grid">
+<select class="field"><option>Looking to...</option><option>Buy</option><option>Rent</option><option>Sell</option></select>
+<select class="field"><option>Property Type</option><option>Builder Floor</option><option>Independent House</option><option>Apartment</option><option>Commercial</option></select>
+<input class="field" placeholder="Preferred locality">
+<a class="btn primary" href="#contact">Search</a>
+</div>
+</section>
+
+<section class="section" id="properties">
+<div class="section-head"><div><div class="eyebrow">Featured</div><h2>Selected Properties</h2></div><p>A clean starting selection. Replace these demo listings with your live inventory as you add properties.</p></div>
+<div class="cards">
+<article class="card"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=80"><div class="card-body"><div class="tag">For Sale • Builder Floor</div><h3>4 BHK Premium Floor</h3><div class="meta">340 sq. yd. • Delhi</div><div class="price">Price on request</div></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1000&q=80"><div class="card-body"><div class="tag">For Sale • Residential</div><h3>Spacious Family Home</h3><div class="meta">3 BHK • Prime locality</div><div class="price">Price on request</div></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1000&q=80"><div class="card-body"><div class="tag">For Rent • Residential</div><h3>Modern 2 BHK</h3><div class="meta">Well-connected • Delhi NCR</div><div class="price">Rent on request</div></div></article>
+</div>
+</section>
+
+<section class="section about" id="about">
+<div><div class="eyebrow">About Ramalayam</div><h2>Property decisions, made simpler.</h2></div>
+<div><p>Ramalayam Real Estates provides property brokerage and consultancy for residential and commercial requirements across Delhi NCR.</p><p>Whether you're looking to buy, sell, rent or find the right tenant, our approach is simple: understand the requirement, shortlist suitable options and help move the transaction forward.</p><div class="ticks"><div>Residential & commercial property assistance</div><div>Buyer and tenant sourcing</div><div>Local-market focused property search</div></div></div>
+</section>
+
+<section class="section" id="areas">
+<div class="section-head"><div><div class="eyebrow">Delhi NCR</div><h2>Areas We Serve</h2></div><p>Focused coverage across established residential and commercial neighbourhoods.</p></div>
+<div class="areas"><div class="area">Rajouri Garden</div><div class="area">Punjabi Bagh</div><div class="area">Janakpuri</div><div class="area">Hari Nagar</div><div class="area">Kirti Nagar</div><div class="area">Patel Nagar</div><div class="area">Dwarka</div><div class="area">South Delhi</div></div>
+</section>
+
+<section class="section cta" id="contact">
+<div class="eyebrow">Let's Talk Property</div>
+<h2>Have a property to sell or rent?</h2>
+<p>Or tell us what you're looking for and we'll help you find suitable options.</p>
+<a class="btn primary" href="https://wa.me/917982064160" target="_blank" rel="noopener">WhatsApp Us</a>
+<a class="btn" style="background:var(--green);color:white" href="tel:+917982064160">Call 7982064160</a>
+<a class="btn" style="background:white;color:var(--green);border:1px solid #d8d0c2" href="mailto:ramalayam.real.estates@gmail.com">Email Us</a>
+<a class="btn" style="background:white;color:var(--green);border:1px solid #d8d0c2" href="https://www.instagram.com/ramalayam_real_estates?stkn=YTE5YnB0aTJkc2Q=" target="_blank" rel="noopener">Instagram</a>
+<div class="contact-info">
+<a class="contact-pill" href="tel:+917982064160">📞 7982064160</a>
+<a class="contact-pill" href="mailto:ramalayam.real.estates@gmail.com">✉ ramalayam.real.estates@gmail.com</a>
+<a class="contact-pill" href="https://www.instagram.com/ramalayam_real_estates?stkn=YTE5YnB0aTJkc2Q=" target="_blank" rel="noopener">📸 @ramalayam_real_estates</a>
+</div>
+</section>
+
+<footer>
+<div><div class="foot-logo">Ramalayam Real Estates</div><div class="small">Property Consultancy • Delhi NCR</div><div class="small">📞 <a href="tel:+917982064160">7982064160</a> • ✉ <a href="mailto:ramalayam.real.estates@gmail.com">ramalayam.real.estates@gmail.com</a></div></div>
+<div class="small">© 2026 Ramalayam Real Estates. All rights reserved.</div>
+</footer>
+</body>
+</html>
